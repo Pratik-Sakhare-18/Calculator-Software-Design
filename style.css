@@ -45,10 +45,53 @@ form input.equal{
 width:130px;
 }
 
+.bac:hover{
+	background-color:rgb(230, 230, 230);
+
+}
+
+.bac:active{
+	background-color:white;
+
+}
+
 .main-div{
-	background-color: red;
+	background-color: white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
+}
+
+#calc a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px black;
+}
+
+#calc a:hover{
+	color: black;
+}
+
+#calc :active{
+    font-weight: bolder;
+}
+
+#calc img:active{
+	border:2px solid black;
+	border-radius: 10px;
+	
+}
+
+#calc img{
+	box-shadow: 0px 10px 20px black;
+	border-radius: 10px;
+}
+
+#calc img:hover{
+    transform: scale(1.05);
+	box-shadow: 0px 10px 20px rgb(43, 226, 192);
 }
